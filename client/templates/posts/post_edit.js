@@ -1,4 +1,5 @@
 Template.postEdit.events({
+  
   'submit form': function(e) {
     e.preventDefault();
 
@@ -28,4 +29,5 @@ Template.postEdit.events({
       Router.go('postsList');
     }
   }
+  
 });

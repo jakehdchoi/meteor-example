@@ -1,4 +1,5 @@
 Template.postSubmit.events({
+  
   'submit form': function(e) {
     e.preventDefault();
 
@@ -19,4 +20,5 @@ Template.postSubmit.events({
       Router.go('postPage', {_id: result._id});  
     });
   }
+  
 });
